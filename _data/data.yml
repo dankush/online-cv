@@ -1,268 +1,135 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: false
+    education: True
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Dan Kushner
+    tagline: Delivering Impactful Solutions Through Quality, Automation, and Analytics
+    avatar: profile.png
 
-    # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    email: dan.k0288@gmail.com
+    phone: 0545798555
+    timezone: Asia/Jerusalem
+    citizenship: Israeli
+    website: 
+    linkedin: https://www.linkedin.com/in/kushnerdan/
+    github: https://github.com/dankush
+    medium: https://medium.com/@dank.kushner
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Hebrew
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: Fluent
+        - idiom: Russian
+          level: Fluent
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - item: Data Analysis
+        - item: Climate Change
+        - item: AI
+        - item: QA & Automation
+        - item: Leadership Development
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      At present, as a QA & Automation Leader, I merge my comprehensive expertise in data collection, analysis, and modeling with a fervent enthusiasm for KPI development. My professional journey in the tech arena is deeply rooted in a core conviction: "software should serve people." This belief not only shapes my approach to quality assurance and automation but also underscores my commitment to creating software solutions that genuinely benefit users. Furthermore, I am a staunch advocate of the principle, "without data, you're just another person with an opinion." This motto reflects my dedication to data-driven decision-making and underscores my belief in the power of informed, objective analysis in driving innovation and excellence in the technology sector.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Data Scientist Professional (240 hours)
+        university: NAYA College
+        time: 2016 - 2017
+      - degree: Bachelor of Science - BS in Industrial Engineering and Management
+        university: Jerusalem College of Engineering
+        time: 2010 - 2014
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: QA & Automation Manager
+        time: 2023 - Present
+        company: Aqua Security
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Managed two Scrum teams of 10 SDETs, enhancing product quality and accelerating delivery by implementing QA protocols that decreased defect escape rates and cut time-to-market.
+          - Initiated a monthly QA KPI reporting system, fostering a culture of continuous improvement and accountability that increased process transparency and underscored QA's strategic value.
+          - Drove a 90% conversion from manual to automated testing, enhancing operational efficiency by reducing test cycle time by 50% and facilitating the adoption of user-friendly automation tools.
+      - role: Automation Infrastructure Team Lead
+        time: 2022 - 2023
+        company: Aqua Security
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Led a team of 8, including 7 Automation Engineers and 1 QA Analyst, while providing expertise and guidance as the primary automation authority for a group of 40 QA Automation scrum team members in India and Israel.
+          - Implemented a metrics-driven evaluation framework within CI/CD pipelines, improving process oversight and control by more than 70%.
+          - Directed the development of key projects such as UI automation with Playwright and API sanity checks, enhancing release readiness and operational efficiency.
+      - role: Quality & Automation Team Lead
+        time: 2021 - 2022
+        company: Explorium
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Directed a team of 7 professionals, recruiting, managing, and leading 4 Automation Engineers and 3 QA Engineers to redefine the company's core quality strategy for continuous deployments of Amazon Elastic Kubernetes Service SaaS web application.
+          - Conceptualized and executed a "shift left" approach, establishing progression testing protocols for major updates, which bolstered the early detection of defects and integrated quality assurance into earlier stages of the development lifecycle.
+          - Enhanced transparency of QA processes by developing dedicated release readiness reports and defining stage environments for pre-release testing, significantly boosting confidence in the robustness of each daily release.
+      - role: Automation Team Lead & Data Analyst
+        time: 2018 - 2021
+        company: Sisense
+        details: |
+          - Team lead for 3 automation engineers and mentor to 4 QA engineers, increasing automation coverage by 80% and improving solution quality through strategic planning and code reviews.
+          - Designed end-to-end automation frameworks in Python, enhancing testing efficiency by over 80% and contributing to a robust Jenkins-based continuous integration testing framework.
+          - Created performance testing tools that detected more than 50% performance issues, directly improving system reliability.
+          - Developed R&D performance dashboards integrating data from JIRA, Jenkins, and other sources, improving bug tracking efficiency and providing actionable insights for release management.
+      - role: Advanced BI Technical Consultant
+        time: 2016 - 2018
+        company: Sisense
+        details: |
+          - Delivered custom BI solutions to global clients, including Nasdaq, IBM, GE, and Philips, by translating complex requirements into actionable and scalable analytics frameworks.
+          - Engineered a comprehensive customer adoption analysis model using Elasticsearch, which streamlined data processing and provided critical insights to drive strategic decisions.
+          - Innovated and commercialized an analytics tool that generated $5,000 in sales, demonstrating direct market value and customer demand.
+      - role: Developer and Data Analyst
+        time: 2015 - 2016
+        company: Intel
+        details: |
+          - Developed and designed reports and KPIs for the Electronic Design Automation tools at the operational and management level.
+          - Developed automation scripts and parsed logs and files using Ruby and Python.
+          - Maintained and designed data warehousing systems with PostgreSQL.
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+    title: Certifications
+    list:
+      - name: Data Scientist Professional
+        start: 2016
+        end: 2017
+        organization: NAYA College
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Dedicated to leveraging data analysis, automation, and innovative solutions to drive meaningful climate change initiatives and impactful projects.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: COVID-19 Data Analysis Project
+        link: https://dankush.notion.site/IL-COVID-19-April-2020-036c715a44ac41049e0df4a61f4ca772?pvs=74
+        tagline: "Analyzed COVID-19 data to create actionable insights, showcasing expertise in data modeling and visualization."
+      - title: Climate Change Awareness Telegram Channel
+        link: https://t.me/ClimatePulseIL
+        tagline: "Increased public awareness with innovative and user-friendly information to inspire meaningful action."
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills & Proficiency
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Automation Frameworks (Pytest, Playwright, Testim.io)
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Data Analysis (SQL, Power BI, Excel)
+        level: 95%
+      - name: Cloud Platforms (AWS, Docker, K8s)
+        level: 90%
+      - name: CI/CD Tools
+        level: 90%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> for quality and innovation.
