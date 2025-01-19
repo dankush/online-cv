@@ -59,8 +59,10 @@ experiences:
         company: Aqua Security
         details: |
           - Managed two Scrum teams of 10 SDETs, enhancing product quality and accelerating delivery by implementing QA protocols that decreased defect escape rates and cut time-to-market.
-          - Initiated a monthly QA KPI reporting system, fostering a culture of continuous improvement and accountability that increased process transparency and underscored QA's strategic value.
-          - Drove a 90% conversion from manual to automated testing, enhancing operational efficiency by reducing test cycle time by 50% and facilitating the adoption of user-friendly automation tools.
+          - Created comprehensive R&D dashboards using BI tools to monitor bug backlogs per component and development team, enabling targeted prioritization and faster resolution of critical issues.
+          - Collaborated closely with release managers to define streamlined processes and branching strategies, improving overall release efficiency and ensuring higher-quality deployments.
+          - Introduced a monthly QA KPI reporting system, fostering a culture of continuous improvement and accountability that increased process transparency and underscored QA's strategic value.
+          - Drove a 90% conversion from manual to automated testing, enhancing operational efficiency by reducing test cycle time by 50% and facilitating adoption of user-friendly automation tools.
       - role: Automation Infrastructure Team Lead
         time: 2022 - 2023
         company: Aqua Security
