@@ -39,6 +39,10 @@
       <li class="medium"><i class="fab fa-medium"></i><a href="{{ sidebar.medium }}" target="_blank">Medium</a></li>
       {% endif %}
 
+      {% if sidebar.portfolio %}
+      <li class="portfolio"><i class="fas fa-folder-open"></i><a href="{{ sidebar.portfolio }}" target="_blank">Portfolio</a></li>
+      {% endif %}
+
       {% if sidebar.website %}
       <li class="website"><i class="fas fa-globe"></i><a href="{{ sidebar.website }}" target="_blank">Personal Site</a></li>
       {% endif %}
